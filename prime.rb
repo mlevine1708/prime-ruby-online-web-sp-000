@@ -7,4 +7,3 @@ Prime.prime?(4)
 
 
 end
-
