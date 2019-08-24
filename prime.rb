@@ -1,9 +1,10 @@
 # Add  code here!
-
 def prime?(num)
-    2.upto(Math.sqrt(num).ceil) do |i|
-        break if num%i==0
-        return true if i==Math.sqrt(num).ceil
+  2.upto(Math.sqrt(n)) do |x|
+    if n % x == 0
+      return false
+    else
+      return true
     end
-    return false
+  end
 end
